@@ -1,0 +1,44 @@
+---
+export interface Props {
+	title: string;
+	subtitle: string;
+}
+
+const { title, subtitle } = Astro.props as Props;
+---
+
+<div class="link-card">
+		<h2>
+			{title}
+			<span class="subtitle">"{subtitle}"</span>
+		</h2>
+		<slot />
+	</div>
+<style>
+	.link-card {
+		width: 500px;
+		margin: auto;
+		margin-top: 50px;
+		padding: 10px;
+		border-radius: 0.5rem;
+		background-position: 100%;
+		border-style: dashed;
+		border-color: var(--text-color);
+	}
+
+	h2 {
+		margin: 0;
+	}
+
+	.subtitle {
+		font-size: 14px;
+		color: #64748b;
+		font-weight: 600;
+		font-style: italic;
+	}
+
+	p {
+		margin-top: 0.75rem;
+		margin-bottom: 0;
+	}
+</style>

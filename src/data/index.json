@@ -1,0 +1,32 @@
+{
+  "description": "Hey everyone 👋.",
+  "items": [
+    {
+      "title": "Currently",
+      "desc": "Preparing for IB Diploma Exams, N22"
+    },
+    {
+      "title": "High School Education",
+      "desc": "The Indian Public School, Chennai"
+    },
+    {
+      "title": "Work at getCREDIBLE",
+      "desc": "I intern at getCREDIBLE as an app developer, and am responsible for the key modules concerning machine learning. As part of my work, I actively promote them on social media. Check out their website and social media pages below 👇.",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://www.getcredible.pro/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/getcredible.pro"
+        }
+      ]
+    }
+  ],
+  "socialMedia": {
+    "twitter": "https://twitter.com/aditya_vinodh",
+    "github": "https://github.com/smashfries",
+    "at": "mailto:hi@adityaone.com"
+  }
+}
