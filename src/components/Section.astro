@@ -1,4 +1,6 @@
 ---
+import Button from './Button.astro';
+import HorizontalList from './HorizontalList.astro';
 export interface Props {
   title: string,
   desc: string,
@@ -10,9 +12,12 @@ const { title, desc, links } = Astro.props as Props;
 
 <div>
   <hr>
-  <h4>{title}</h4>
+  <h2>{title}</h2>
   <p>{desc}</p>
-  {links && links.map((item) => (
-    <a href={item.url}>{item.label}</a>
-  ))}
+  <br>
+  <HorizontalList>
+    {links && links.map((item) => (
+      <Button text={item.label} link={{href: item.url, newTab: true}} />
+    ))}
+  </HorizontalList>
 </div>

@@ -1,0 +1,22 @@
+---
+export interface Props {
+  reverse?: boolean
+}
+
+const { reverse } = Astro.props as Props;
+---
+
+<div class={reverse ? 'reverse' : ''}>
+  <slot />
+</div>
+
+<style>
+  div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .reverse {
+    flex-direction: row-reverse;
+  }
+</style>

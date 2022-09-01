@@ -24,9 +24,21 @@
       ]
     }
   ],
-  "socialMedia": {
-    "twitter": "https://twitter.com/aditya_vinodh",
-    "github": "https://github.com/smashfries",
-    "at": "mailto:hi@adityaone.com"
-  }
+  "socialMedia": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/aditya_vinodh",
+      "icon": "fa-brands fa-twitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/smashfries",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "name": "Email",
+      "url": "mailto://hi@adityaone.com",
+      "icon": "fa-solid fa-at"
+    }
+  ]
 }

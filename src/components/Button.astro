@@ -1,0 +1,34 @@
+---
+export interface Props {
+  text: string,
+  link?: {
+    href: string,
+    newTab: boolean
+  },
+  action?: {
+    onclick: string
+  }
+}
+
+const { text, link, action } = Astro.props as Props;
+---
+<>
+{link && <a href={link.href} target={link.newTab ? '_blank' : '_self'}>{text} <i class="fa-solid fa-up-right-from-square"></i></a>}
+
+{action && <button onclick={action.onclick}>{text}</button>}
+
+</>
+
+<style>
+  a, button {
+    text-decoration: none;
+    color: var(--color-text);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--color-text);
+    transition: 0.2s;
+  }
+  a:hover, button:hover {
+    box-shadow: 0px 8px 25px -5px rgb(0 0 0 / 10%), 4px 0px 10px 2px rgb(0 0 0 / 10%);
+  }
+</style>

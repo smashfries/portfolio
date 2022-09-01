@@ -8,10 +8,10 @@ const { title, subtitle } = Astro.props as Props;
 ---
 
 <div class="link-card">
-		<h2>
+		<h1>
 			{title}
 			<span class="subtitle">"{subtitle}"</span>
-		</h2>
+		</h1>
 		<slot />
 	</div>
 <style>
@@ -31,7 +31,7 @@ const { title, subtitle } = Astro.props as Props;
 	}
 
 	.subtitle {
-		font-size: 14px;
+		font-size: var(--font-size-lg);
 		color: #64748b;
 		font-weight: 600;
 		font-style: italic;

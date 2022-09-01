@@ -2,14 +2,30 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/TitleCard.astro';
 import Section from '../components/Section.astro';
+import HorizontalList from '../components/HorizontalList.astro';
 import data from '../data/index.json';
 ---
 
 <Layout title="Aditya">
 	<Card title="Aditya" subtitle="aditya vinodh arjun">
-		<p>Hello...</p>
+		<HorizontalList reverse={true}>
+			{data.socialMedia.map((item) => (
+				<a href={item.url} title={item.name}><i class={item.icon}></i></a>
+			))}
+		</HorizontalList>
+		<p>{data.description}</p>
+		<br>
 		{data.items.map((item) => (
 			<Section title={item.title} desc={item.desc} links={item.links} />
 		))}
 	</Card>
 </Layout>
+
+
+<style>
+	a {
+		font-size: x-large;
+		padding: 5px;
+		margin-right: 3px;
+	}
+</style>
