@@ -37,6 +37,11 @@
   ],
   "socialMedia": [
     {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/c/AdityaForReal",
+      "icon": "fa-brands fa-youtube"
+    },
+    {
       "name": "Podcast",
       "url": "https://open.spotify.com/show/78ur6I16o42fT3YlLtDu65",
       "icon": "fa-solid fa-podcast"
