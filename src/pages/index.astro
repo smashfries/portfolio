@@ -10,10 +10,12 @@ import data from '../data/index.json';
 	<Card title="Aditya" subtitle="aditya vinodh arjun">
 		<HorizontalList reverse={true}>
 			{data.socialMedia.map((item) => (
-				<a href={item.url} title={item.name}><i class={item.icon}></i></a>
+				<a href={item.url} target="_blank" title={item.name}><i class={item.icon}></i></a>
 			))}
 		</HorizontalList>
 		<p>{data.description}</p>
+		<h2>Song of the day</h2>
+		<iframe style="border-radius:12px" src={data.songOfTheDay} width="100%" height="80" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 		<br>
 		{data.items.map((item) => (
 			<Section title={item.title} desc={item.desc} links={item.links} />
