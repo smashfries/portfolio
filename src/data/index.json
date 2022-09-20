@@ -1,6 +1,6 @@
 {
-  "description": "Hey everyone 👋. This is the homepage of everything that is 'me'. In the middle of all kind of chaos, I decided to make this site. That should give you some idea of who I am. Anyways, hope you have a wonderful day. Be thankful, work hard, party at night - that's my mantra.",
-  "songOfTheDay": "https://open.spotify.com/embed/track/18XlJEroUwFo0tLZxscgXE?si=d7c85a6f59c64d55",
+  "description": "Hey everyone 👋. This is the homepage of everything that is 'me'. In the middle of all kind of chaos, I decided to make this site. That should give you some idea of who I am. Anyways, hope you have a wonderful day. Be thankful, work hard, party at night!",
+  "songOfTheDay": "https://open.spotify.com/embed/track/0ocf3HwWhrXtA8r63Vcd2h",
   "items": [
     {
       "title": "Currently",
@@ -31,6 +31,16 @@
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/getcredible.pro"
+        }
+      ]
+    },
+    {
+      "title": "SideTracked - A personal project",
+      "desc": "A fully featured website that serves as a platform for students across schools to create online communities and share their knowledge about topics that they are passionate about. Check out my website below, and feel free to contact me to implement this in your school!",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://sidetracked-dd07c.web.app"
         }
       ]
     }
