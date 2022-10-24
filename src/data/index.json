@@ -1,10 +1,10 @@
 {
-  "description": "Hey everyone 👋. This is the homepage of everything that is 'me'. In the middle of all kind of chaos, I decided to make this site. That should give you some idea of who I am. Anyways, hope you have a wonderful day. Be thankful, work hard, party at night!",
-  "songOfTheDay": "https://open.spotify.com/embed/track/0ocf3HwWhrXtA8r63Vcd2h",
+  "description": "Hey everyone 👋. This is the homepage of everything that is 'me'.",
+  "songOfTheDay": "https://open.spotify.com/embed/track/4w8niZpiMy6qz1mntFA5uM?si=27e16d421d90463e",
   "items": [
     {
       "title": "Currently",
-      "desc": "Preparing for IB Diploma Exams, N22"
+      "desc": "Writing IB Diploma Exams, N22"
     },
     {
       "title": "High School Education",
@@ -67,8 +67,13 @@
       "icon": "fa-brands fa-github"
     },
     {
+      "name": "Resume",
+      "url": "https://docs.google.com/document/d/1yEE1ubS1m-9Eqjxe-GhjprfmHJJvUXJq1rLjpXsniBI/",
+      "icon": "fa-solid fa-file"
+    },
+    {
       "name": "Email",
-      "url": "mailto://hi@adityaone.com",
+      "url": "mailto:hi@adityaone.com",
       "icon": "fa-solid fa-at"
     }
   ]
