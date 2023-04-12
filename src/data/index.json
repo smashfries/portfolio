@@ -4,21 +4,29 @@
   "items": [
     {
       "title": "Currently",
-      "desc": "Writing IB Diploma Exams, N22"
+      "desc": "Working on Launch Base (Check out the YT channel), Getting ready for College, Practicing for a Half Marathon, ..."
+    },
+    {
+      "title": "Accepted at GW",
+      "desc": "I've been accepted to study at George Washington University's School of Engineering and Applied Science. I'll be heading to DC to study there in the fall."
+    },
+    {
+      "title": "Launch Base",
+      "desc": "I have started a project to create a new kind of startup ecosystem centered around the founders and entrepreneurs. I am building a platform that enables founders to share and validate their ideas, build their companies alongside their customers, and create better customer experiences.",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://launchbase.app"
+        },
+        {
+          "label": "YT Progress Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLG1xf2zJJiWpGQGz7UlCQSCkoalSwKAaO"
+        }
+      ]
     },
     {
       "title": "High School Education",
-      "desc": "The Indian Public School, Chennai"
-    },
-    {
-      "title": "Podcast - It's so confusing",
-      "desc": "I have been experimenting with the art of podcasting, as I created my very own show on Spotify. I try and explore current news, world affairs, and bring a bit of personal relevance. It's a relaxed, yet quick brief of the news. I wish to have a co-host, so if you're interested please let me know! Also, hope you enjoy the songs too!",
-      "links": [
-        {
-          "label": "Spotify page",
-          "url": "https://open.spotify.com/show/78ur6I16o42fT3YlLtDu65"
-        }
-      ]
+      "desc": "The Indian Public School, Chennai - Graduated with IB Diploma"
     },
     {
       "title": "Work at getCREDIBLE",
@@ -50,11 +58,6 @@
       "name": "YouTube",
       "url": "https://www.youtube.com/c/AdityaForReal",
       "icon": "fa-brands fa-youtube"
-    },
-    {
-      "name": "Podcast",
-      "url": "https://open.spotify.com/show/78ur6I16o42fT3YlLtDu65",
-      "icon": "fa-solid fa-podcast"
     },
     {
       "name": "Twitter",
